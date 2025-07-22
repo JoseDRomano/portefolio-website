@@ -29,6 +29,8 @@ const Hero = () => {
                             pauseDuration={1500}
                             showCursor={true}
                             cursorCharacter="_"
+                            className="!text-current"
+                            textColors={["currentColor"]}
                         />
                     </div>
                 </div>

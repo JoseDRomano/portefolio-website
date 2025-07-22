@@ -15,14 +15,14 @@ const Navbar = () => {
             </div>
             <div className="flex-[3] flex justify-center items-center">
                 <ul className="menu menu-horizontal gap-12">
-                    <li><a className="text-xl font-extrabold tracking-tight hover:text-primary">Experience</a></li>
-                    <li><a className="text-xl font-extrabold tracking-tight hover:text-primary">Projects</a></li>
-                    <li><a className="text-xl font-extrabold tracking-tight hover:text-primary">About me</a></li>
+                    <li><a className="text-xl !text-white font-extrabold tracking-tight hover:!text-primary">Experience</a></li>
+                    <li><a className="text-xl !text-white font-extrabold tracking-tight hover:!text-primary">Projects</a></li>
+                    <li><a className="text-xl !text-white font-extrabold tracking-tight hover:!text-primary">About me</a></li>
                 </ul>
             </div>
             <div className="flex-1 flex justify-end">
                 <button 
-                    className="btn bg-blue-600 hover:bg-blue-700 border-none text-xl font-extrabold tracking-tight"
+                    className="btn bg-blue-600 hover:bg-blue-700 border-none text-xl font-extrabold tracking-tight text-white"
                     style={{ marginRight: '16px', paddingLeft: '12px', paddingRight: '12px' }}
                 >
                     Book a call!
