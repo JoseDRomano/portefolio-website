@@ -8,7 +8,13 @@ const Footer = () => {
                 <div className="flex items-center justify-center w-full gap-20">
                     {/* LinkedIn on the left */}
                     <nav className="flex items-center">
-                        <a>
+                        <button
+                            onClick={() => window.open('https://www.linkedin.com/in/jd-romano/', '_blank')}
+                            aria-label="LinkedIn"
+                            className="focus:outline-none hover:scale-120 transition-transform"
+                            type="button"
+
+                        >
                             <Image
                                 src="/linkedin-svgrepo-com.svg"
                                 alt="LinkedIn"
@@ -16,25 +22,30 @@ const Footer = () => {
                                 width={35}
                                 height={35}
                             />
-                        </a>
+                        </button>
                     </nav>
-                    
+
                     {/* Copyright in center */}
                     <aside className="text-center">
                         <p>Copyright © {new Date().getFullYear()} - All right reserved to José Romano</p>
                     </aside>
-                    
+
                     {/* GitHub on the right */}
                     <nav className="flex items-center">
-                        <a>
+                        <button
+                            onClick={() => window.open('https://www.linkedin.com/in/jd-romano/', '_blank')}
+                            aria-label="LinkedIn"
+                            className="focus:outline-none hover:scale-120 transition-transform"
+                            type="button"
+                        >
                             <Image
-                                src="/github-svgrepo-com.svg"
+                                src="/git.png"
                                 alt="GitHub"
                                 href="https://github.com/JoseDRomano"
                                 width={35}
                                 height={35}
                             />
-                        </a>
+                        </button>
                     </nav>
                 </div>
             </footer>
