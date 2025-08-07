@@ -3,6 +3,7 @@ import React from 'react';
 
 import Image from 'next/image';
 import TextType from '../TextAnimations/TextType/TextType';
+import Timeline from './Timeline/Timeline';
 
 
 const Hero = () => {
