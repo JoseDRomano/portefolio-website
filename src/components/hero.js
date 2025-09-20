@@ -9,7 +9,7 @@ import Timeline from './Timeline/Timeline';
 const Hero = () => {
     return (
 
-        <div className="hero h-[80vh] flex items-center justify-center">
+        <div className="hero h-[calc(100vh-140px)] flex items-center justify-center">
             <div className="backdrop-blur-md bg-white/15 rounded-2xl shadow-lg w-[95%] max-w-[1100px] flex flex-col lg:flex-row items-center gap-8">
                 <div style={{ paddingLeft: '48px' }} className="bg-transparent">
                     <img
